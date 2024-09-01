@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Advanced Notes Application</h1>
+    </header>
+    
+    <main class="main-content">
+        <section class="note-input">
+            <textarea id="note-content" class="note-textarea" placeholder="Write your note here..."></textarea>
+            <div class="note-actions">
+                <button id="save-note" class="btn btn-primary">Save Note</button>
+                <button id="list-notes" class="btn btn-secondary">List Notes</button>
+            </div>
+        </section>
+        
+        <section id="notes-list" class="notes-list"></section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Advanced Notes App. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
